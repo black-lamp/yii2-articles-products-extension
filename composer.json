@@ -1,0 +1,25 @@
+{
+  "name": "black-lamp/yii2-articles-products-extension",
+  "description": "Articles product extension",
+  "keywords": ["yii2", "articles", "extension"],
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Gutsulyak Vadim",
+      "email": "guts.vadimq@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.4",
+    "yiisoft/yii2-bootstrap": "*",
+    "2amigos/yii2-tinymce-widget": "*",
+    "black-lamp/yii2-articles": "*",
+    "black-lamp/yii2-shop": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "bl\\articles\\products": ""
+    }
+  }
+}
